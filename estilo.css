@@ -3,6 +3,7 @@
 body {
 	font-family: "Inter", sans-serif;
 	color: #000;
+	background-color: hsl(36, 100%, 99%);
 	margin-top: 70px;
 }
 
