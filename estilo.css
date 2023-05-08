@@ -1,0 +1,213 @@
+@import url('https://fonts.googleapis.com/css2?family=Inter:wght@400;700;800&display=swap');
+
+body {
+	font-family: "Inter", sans-serif;
+	color: #000;
+	margin-top: 70px;
+}
+
+* {
+	transition: all 200ms ease-in-out;
+}
+
+a {
+	text-decoration: none;	
+}
+
+.topo {
+	place-items: center;
+	display: flex;
+	justify-content: space-between
+}
+
+nav a {
+	color: hsl(236, 13%, 42%);
+	padding-right: 40px;
+}
+
+nav a:last-child {
+	padding-right: 0px;
+}
+
+nav a:hover {
+	color: hsl(35, 77%, 62%);
+}
+
+.overlay {
+	display: none;
+}
+
+.container {
+	width: 1151px;
+	margin: 0 auto;
+}
+
+.conteudo {
+	margin-top: 50px;
+	display: grid;
+	grid-template-columns: 1fr 1fr 1fr;
+ 	grid-template-rows: auto auto auto;
+ 	gap: 30px;
+}
+
+.titulo h1 {
+	font-size: 3.5em;
+	line-height: 55px;;
+	font-weight: 800;
+	margin: 0px;
+}
+
+.texto p {
+	color: hsl(236, 13%, 42%);
+	margin-bottom: 32px;
+}
+
+.texto a {
+	font-size: 0.9em;
+	text-transform: uppercase;
+	letter-spacing: 5px;
+	color: white;
+	font-weight: 700;
+}
+
+.botao {
+	background-color: hsl(5, 85%, 63%);
+	padding: 15px 30px;
+	display: inline-block;
+}
+
+.botao:hover {
+	background-color: hsl(240, 100%, 5%);
+	cursor: pointer;
+}
+
+.img-mobile {
+	display: none;
+}
+
+.img-container {
+	grid-column-start: 1;
+  	grid-column-end: 3;
+  	grid-row-start: 1;
+  	grid-row-end: 2;
+}
+
+.img-container img {
+	width: 100%;
+}
+
+.direita {
+	background-color: hsl(240, 100%, 5%);
+}
+
+.direita h1 {
+	color: hsl(35, 77%, 62%);
+	font-size: 2em;
+	margin-top: 10px;
+}
+
+.direita h2 {
+	color: white;
+	margin-top: 35px;
+	font-size: 1.2em;
+}
+
+.direita h2:hover {
+	color: hsl(35, 77%, 62%);
+	cursor: pointer;
+}
+
+.direita p {
+	color: hsl(233, 8%, 79%);
+}
+
+.direita-texto {
+	padding: 20px;
+}
+
+.direita-texto p {
+	padding-bottom: 30px;
+	border-bottom: 1px solid hsl(233, 8%, 40%);
+}
+
+.direita-texto p:last-child {
+	padding-bottom: 0px;
+	border-bottom: 0px;
+}
+
+.titulo {
+	grid-column-start: 1;
+  	grid-column-end: 1;
+  	grid-row-start: 2;
+  	grid-row-end: 3;
+}
+
+.texto {
+	grid-column-start: 2;
+  	grid-column-end: 3;
+  	grid-row-start: 2;
+  	grid-row-end: 3;
+}
+
+.direita {
+	grid-column-start: 3;
+	grid-row-start: 1;
+	grid-row-end: 3;
+}
+
+.final {
+	display: contents;
+}
+
+.final img {
+	width: 100px;
+	float: left;
+	margin-right: 25px;
+}
+
+.final h1 {
+	margin: 0px;
+	color: hsl(233, 8%, 79%);
+}
+
+.final h2 {
+	color: hsl(240, 100%, 5%);
+	font-size: 1.2em;
+	font-weight: 800;
+}
+
+.final h2:hover {
+	color: hsl(5, 85%, 63%);
+	cursor: pointer;
+}
+
+.final p {
+	font-size: 0.9em;
+	color: hsl(236, 13%, 42%);
+	margin: 0px;
+}
+
+.card {
+	margin-top: 40px;
+}
+
+footer {
+	font-size: 0.7em;
+	padding: 70px 0px 0px;
+	text-align: center;
+}
+
+footer a {
+	color: hsl(5, 85%, 63%);
+}
+
+footer a:hover {
+	color: hsl(233, 8%, 79%);
+}
+
+
+
+
+
+
+
